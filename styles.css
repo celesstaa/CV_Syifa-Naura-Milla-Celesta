@@ -52,6 +52,7 @@ a {
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
   overflow-y: auto;
   transition: transform 0.3s ease-in-out;
+  z-index: 1000;
 }
 
 #profile img {
@@ -145,9 +146,9 @@ footer {
 
 .project-item p {
   color: #333;
-  line-height: 1.5; /* Menyesuaikan jarak antar paragraf */
+  line-height: 1.5;
   text-align: justify;
-  margin-bottom: 10px; /* Menambahkan margin bawah untuk paragraf agar tidak terlalu rapat */
+  margin-bottom: 10px;
 }
 
 /* Education & Skills Section */
@@ -196,6 +197,8 @@ footer {
     height: auto;
     border-right: none;
     box-shadow: none;
+    z-index: 0;
+    top: 0;
   }
 
   #profile img {
